@@ -1,4 +1,0 @@
-For partA: in server: 
-A global var buffer was created for interaction between comsumer and producer, which hold products. producer(), which is the main thread, and consumer(), which is used for handling requests, method were created for communication. In main(), assignment to command line argument was made after their validation check. 
-For partB, 
-structDef.c is created in include dir to define struc for lock and cv. threadlib.c is created for createing new thread library. In proc.h, a private thread field in struc proc is create for providing a private stack. In proc.c we add some condition and operation such as change thread's state to ZOMBIE and let os wait sys call only for chile process (not for thread). In sysproc.c, some methods were added to perform colne, join, conditionally wake, conditionally sleep.
