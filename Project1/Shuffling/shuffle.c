@@ -17,6 +17,11 @@ int main(int argc, char *argv[]) {
   FILE *fi;
   FILE *fo;
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9dfb78534099c1521072bc0733772f3cd2bd31be
   // Check if this is a legal argument.
   if (argc != 5 || argv[1][0] != '-' || argv[3][0] != '-') {
     fprintf(stderr, "Usage: shuffle -i inputfile -o outputfile\n");
